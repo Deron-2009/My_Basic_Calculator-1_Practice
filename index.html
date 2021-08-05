@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Calculator</h1>
+        <h4>Find your answers here:</h4>
+        <u><h3>READ THE INSTRUCTIONS BEFORE USE:</h3></u>
+        <h4>You can also operate with integers like: -4 + 3 = -1</h4>
+        <h4>This calculator doesn't accept rationals(fractions or decimals) like: 2.5, 3.2</h4>
+        <h4>The calculator may give wrong answers if fractions or decimals are used.</h4>
+        <h4>But you may get answers in rationals like: 12 ÷ 5 = 2.4</h4>
+        <h4>You have to type any number in each of the text-boxes. Then click on any of the operations and find your answers down</h4>
+        <div class="numbers">
+            <input type="text" name="" id="x" placeholder="Type your 1st number">
+            <input type="text" name="" id="y" placeholder="Type your 2nd number">
+        </div>
+        <div class="buttons">
+            <input type="button" value="+ them" id="add">
+            <input type="button" value="- them" id="subtract">
+            <input type="button" value="× them" id="multiply">
+            <input type="button" value="÷ them" id="divide">
+        </div>
+        <h3>Your answers:</h3>
+        <div class="answers">
+            <p id="add_ans"></p>
+            <p id="sub_ans"></p>
+            <p id="mul_ans"></p>
+            <p id="div_ans"></p>
+            </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

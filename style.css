@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+}
+h1{
+    border:2px solid black;
+    background-color: bisque;
+}
+input{
+    padding:3px;
+    margin:5px;
+}
+.main{
+    background-color: khaki;
+    border:2px solid black;
+    width:90%;
+    margin: 0 auto;
+    padding:5px;
+}
+.answers{
+    display:flex;
+}
+.para{
+    background-color: greenyellow;
+    border:2px solid black;
+    margin-left:5px;
+    padding:2px;
+}
+.para>h4{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:750px){
+    .answers{
+        flex-direction:column;
+    }
+    .para{
+        margin-top:5px;
+    }
+}
