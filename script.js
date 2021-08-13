@@ -14,38 +14,38 @@ function(){
     add_ans.className="para"
     const head1=document.createElement("h4")
     head1.innerText="Addition answer:"
-    add_ans.append(head1)
+    add_ans.appendChild(head1)
     const answer1=document.createElement("h1")
     answer1.innerText= parseInt(x.value) +  parseInt(y.value)
-    add_ans.append(answer1)
+    add_ans.appendChild(answer1)
 })
 subtract.addEventListener("click",
 function(){
     sub_ans.className="para"
     const head2=document.createElement("h4")
     head2.innerText="Subtraction answer:"
-    sub_ans.append(head2)
+    sub_ans.appendChild(head2)
     const answer2=document.createElement("h1")
     answer2.innerText= parseInt(x.value) -  parseInt(y.value)
-    sub_ans.append(answer2)
+    sub_ans.appendChild(answer2)
 })
 multiply.addEventListener("click",
 function(){
     mul_ans.className="para"
     const head3=document.createElement("h4")
     head3.innerText="Multiplication answer:"
-    mul_ans.append(head3)
+    mul_ans.appendChild(head3)
     const answer3=document.createElement("h1")
     answer3.innerText= parseInt(x.value) * parseInt(y.value)
-    mul_ans.append(answer3)
+    mul_ans.appendChild(answer3)
 })
 divide.addEventListener("click",
 function(){
     div_ans.className="para"
     const head4=document.createElement("h4")
     head4.innerText="Divition answer:"
-    div_ans.append(head4)
+    div_ans.appendChild(head4)
     const answer4=document.createElement("h1")
     answer4.innerText= parseInt(x.value) /  parseInt(y.value)
-    div_ans.append(answer4)
+    div_ans.appendChild(answer4)
 })
